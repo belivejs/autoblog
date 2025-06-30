@@ -1,0 +1,14 @@
+.posting__subject {
+    font-weight: 700;
+    font-size: 1.15em;
+    line-height: 1.6em;
+    margin: 5px 0;
+}
+
+.posting__account, .posting__remain__keywords__count, .posting__posting_count {
+    color: #777777;
+}
+
+.posting__account::before, .posting__remain__keywords__count::before, .posting__posting_count::before {
+    content: "ㄴ ";
+}
